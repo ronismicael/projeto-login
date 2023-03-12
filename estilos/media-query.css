@@ -1,12 +1,17 @@
 
 @media screen and (min-width:768px) and (max-width:992px){
+    div.campo > input{
+        width:90%;
 
+    }
+    
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c92);
     }
 
     section#login{
         width:80vw ;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -25,12 +30,18 @@
 
 @media screen and (min-width:992px) {
 
+    div.campo > input{
+        width:89%;
+
+    }
+
     body{
         background-image: linear-gradient(to top, #49a09d, #5f2c92);
     }
 
     section#login{
         width:950px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -51,7 +62,8 @@
     }
 
     div#formulario > p{ 
-        font-size: 1.2em;
+        font-size: 1.em;
+        margin: 20px 0ox;
     
     }
 
