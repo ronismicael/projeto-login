@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.432);
+    overflow: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    
+}
+
+section#login > div#imagem{
+    background:#5f2c82 url(../imagens/pexels-vinícius-estevão-2896034\ \(1\).jpg) ;
+    background-size: cover;
+    height: 200px;
+    display: block;
+}
+
+section#login > div#formulario{
+    padding: 10px;
+    display: block;
+
+}
+
